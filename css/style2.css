@@ -1,0 +1,320 @@
+/* 넷마블 css 시작 */
+
+*{margin: 0; padding: 0; box-sizing: border-box; 
+  color: #fff;
+  /* background-color: rgb(5, 8, 7); */
+}
+ul,li{list-style: none;}
+a{color: inherit; text-decoration: none;}
+
+
+/* 서브 시작 */
+
+header{
+  width: 1920px; height: 220px;
+  background-color: rgb(5, 8, 7);
+}
+
+.t_top{
+  width: 1920px; height: 40px;
+  background-color: rgb(5, 8, 7);
+  position: relative;
+}
+
+.t_top ul{
+  position: absolute;
+  display: flex;
+  right: 10px;
+  line-height: 40px;
+  font-size: 10px;
+}
+
+.t_top ul li a{
+  padding: 10px;
+}
+
+
+/* logo */
+
+.t_logo{
+  position: relative;
+  width: 1920px; height: 140px;
+  /* background-color: rgb(32, 134, 100); */
+}
+
+.t_logo img{
+  width: 10%;
+  position: absolute;
+  display: block;
+  top: 40px; left: 900px;
+}
+
+
+/* t_menu */
+
+
+.t_menu{
+  width: 720px; height: 690px;
+  /* background-color: rgb(5, 8, 7); */
+  display: flex;
+  margin: 0 auto;
+}
+
+.t_menu ul{
+  line-height: 40px;
+  text-align: center;
+}
+
+.t_menu li{
+  font-size: 12px;
+}
+
+.t_menu h3{
+  position: relative;
+  width: 180px; height: 40px;
+  background-color: rgb(5, 8, 7);
+  font-size: 14px;
+  z-index: 999;
+}
+
+.t_menu h4{
+  font-size: 18px;
+  line-height: 50px;
+  border-bottom: 2px solid;
+}
+
+.t_menu .h_f{
+  padding-top: 20px;
+}
+
+/* ------- */
+
+
+.t_menu h3:hover{
+  color:  #d9a300;
+}
+
+.t_menu li:hover{
+  color:  #d9a300;
+}
+
+/* box */
+
+/* .box{
+  width: 1920; height: 655px;
+  background-color: rgba(0, 0, 0, 0.2);
+} */
+
+
+/* box 끝 */
+
+
+.t_b{
+  width: 1920px; height: 655px;
+  background-color: rgb(5, 8, 7);
+}
+
+.t_ba img{
+  display: block;
+  padding: 80px 0 0 520px;
+}
+
+
+/* ------- */
+
+.t_g{
+  position: relative;
+  width: 1920px; height: 650px;
+  background-color: #292929;
+}
+
+.t_g h2{
+  position: absolute;
+  display: block;
+  width: 250px; height: 110px;
+  /* background-color: #d9a300; */
+  text-align: center;
+  border-bottom: 3px solid;
+  font-size: 20px;
+  text-align: center;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing:5px
+}
+
+.t_g p{
+  font-size: 50px;
+}
+
+
+.t_m{
+  position: absolute;
+  width: 1000px; height: 400px;
+  /* background-color: rgb(5, 8, 7); */
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.t_m ul{
+  display: block;
+  display: flex;
+  gap: 120px;
+}
+
+.t_m img{
+  display: block;
+  width: 250px;
+  object-fit: cover;
+}
+
+.t_m p{
+  width: 220px;
+  /* background-color: #d9a300; */
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+
+/* --------------------------------- */
+
+
+.h_p{
+  width: 1920px; height: 650px;
+  background-color: rgb(5, 8, 7);
+  position: relative;
+}
+
+.h_p h2{
+  position: absolute;
+  display: block;
+  width: 100px; height: 90px;
+  /* background-color: #d9a300; */
+  text-align: center;
+  border-bottom: 3px solid;
+  font-size: 50px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.h_p .h_pc{
+  position: absolute;
+  width: 1300px; height: 300px;
+  /* background-color: rgb(74, 37, 37); */
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  display: flex;
+  gap: 60px;
+}
+
+.h_p .p_i{
+  /* position: absolute; */
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.h_p p{
+  position: absolute;
+  display: block;
+  width: 80px; height: 50px;
+  /* background-color: #d9a300; */
+}
+
+/* --------------------------------- */
+
+
+.h_m{
+  position: relative;
+  width: 1920px; height: 650px;
+  background-color: #292929;
+}
+
+.h_m h2{
+  position: absolute;
+  display: block;
+  width: 200px; height: 90px;
+  /* background-color: #d9a300; */
+  text-align: center;
+  border-bottom: 3px solid;
+  font-size: 50px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.h_m .h_mo{
+  position: absolute;
+  width: 1300px; height: 300px;
+  /* background-color: rgb(74, 37, 37); */
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  display: flex;
+  gap: 60px;
+}
+
+.h_m .m_i{
+  /* position: absolute; */
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.h_m p{
+  position: absolute;
+  display: block;
+  width: 200px; height: 50px;
+  /* background-color: #d9a300; */
+}
+
+
+
+/* ---------------------------------- */
+
+
+footer{
+  width: 1920px; height: 200px;
+  background-color: rgb(5, 8, 7);
+  font-size: 10px;
+  color: #fff;
+}
+
+footer .h_logo{
+  margin-left: 30px;
+}
+
+
+footer .h_logo img{
+  margin-top: 30px;
+}
+
+
+footer .h_a{
+  width: 1330px; height: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+
+footer .h_b{
+  width: 1330px; height: 30px;
+  margin-left: 30px;
+}
+
+
+footer .h_me{
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+}
